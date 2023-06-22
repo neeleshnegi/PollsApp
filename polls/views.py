@@ -41,6 +41,3 @@ def vote(request, question_id):
         return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
 
 
-
-
-print('hello new commit')
